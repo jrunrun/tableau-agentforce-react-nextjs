@@ -1,4 +1,5 @@
 import Sidebar from '@/components/Sidebar';
+import ChatWidget from '@/components/chat/ChatWidget';
 
 export default function AuthenticatedLayout({
   children,
@@ -11,6 +12,7 @@ export default function AuthenticatedLayout({
       <main className="ml-16">
         {children}
       </main>
+      <ChatWidget />
     </>
   );
 } 
