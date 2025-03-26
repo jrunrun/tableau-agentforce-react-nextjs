@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card {
+    @apply bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 border border-gray-100;
+  }
+  
+  .card-header {
+    @apply text-2xl font-bold text-gray-900 mb-6;
+  }
+  
+  .card-content {
+    @apply space-y-4;
+  }
+} 
